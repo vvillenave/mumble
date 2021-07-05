@@ -101,7 +101,7 @@ This value enables you to change the way mumble arranges the channels in the tre
     </message>
     <message>
         <source>Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupė</translation>
     </message>
     <message>
         <source>List of groups</source>
@@ -141,7 +141,7 @@ This value enables you to change the way mumble arranges the channels in the tre
     </message>
     <message>
         <source>Members</source>
-        <translation type="unfinished"></translation>
+        <translation>Nariai</translation>
     </message>
     <message>
         <source>Add</source>
@@ -157,7 +157,7 @@ This value enables you to change the way mumble arranges the channels in the tre
     </message>
     <message>
         <source>&amp;ACL</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ACL</translation>
     </message>
     <message>
         <source>Active ACLs</source>
@@ -1008,7 +1008,7 @@ This value allows you to set the maximum number of users allowed in the channel.
     </message>
     <message>
         <source>Both</source>
-        <translation type="unfinished"></translation>
+        <translation>Abu</translation>
     </message>
     <message>
         <source>This controls the amount by which Speex will suppress noise.</source>
@@ -1439,7 +1439,7 @@ This value allows you to set the maximum number of users allowed in the channel.
     </message>
     <message>
         <source>Local</source>
-        <translation type="unfinished"></translation>
+        <translation>Vietinis</translation>
     </message>
     <message>
         <source>Server</source>
@@ -2103,11 +2103,11 @@ Speak loudly, as when you are annoyed or excited. Decrease the volume in the sou
     </message>
     <message>
         <source>Start</source>
-        <translation type="unfinished"></translation>
+        <translation>Pradėti</translation>
     </message>
     <message>
         <source>End</source>
-        <translation type="unfinished"></translation>
+        <translation>Baigti</translation>
     </message>
     <message>
         <source>User</source>
@@ -2223,7 +2223,7 @@ Speak loudly, as when you are annoyed or excited. Decrease the volume in the sou
     </message>
     <message>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Ieškoti</translation>
     </message>
     <message>
         <source>IP Address</source>
@@ -2738,7 +2738,7 @@ Ar tikrai norite pakeisti savo liudijimą?
     </message>
     <message>
         <source>Listen</source>
-        <translation type="unfinished"></translation>
+        <translation>Klausyti</translation>
     </message>
     <message>
         <source>This represents the permission to reset the comment or avatar of a user.</source>
@@ -2899,7 +2899,7 @@ Ar tikrai norite pakeisti savo liudijimą?
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>Nežinomas</translation>
     </message>
     <message>
         <source>Users</source>
@@ -2963,11 +2963,11 @@ Ar tikrai norite pakeisti savo liudijimą?
     </message>
     <message>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Ieškoti</translation>
     </message>
     <message>
         <source>Location</source>
-        <translation type="unfinished"></translation>
+        <translation>Vietovė</translation>
     </message>
     <message>
         <source>Filter</source>
@@ -2991,15 +2991,15 @@ Ar tikrai norite pakeisti savo liudijimą?
     </message>
     <message>
         <source>Africa</source>
-        <translation type="unfinished"></translation>
+        <translation>Afrika</translation>
     </message>
     <message>
         <source>Asia</source>
-        <translation type="unfinished"></translation>
+        <translation>Azija</translation>
     </message>
     <message>
         <source>Europe</source>
-        <translation type="unfinished"></translation>
+        <translation>Europa</translation>
     </message>
     <message>
         <source>North America</source>
@@ -3007,7 +3007,7 @@ Ar tikrai norite pakeisti savo liudijimą?
     </message>
     <message>
         <source>Oceania</source>
-        <translation type="unfinished"></translation>
+        <translation>Okeanija</translation>
     </message>
     <message>
         <source>South America</source>
@@ -4204,7 +4204,7 @@ The setting only applies for new messages, the already shown ones will retain th
     </message>
     <message>
         <source>Hide the main Mumble window in the tray when it is minimized.</source>
-        <translation>Suskleidus pagrindinį Mumble langą, slėpti jį į dėklą</translation>
+        <translation>Suskleidus pagrindinį Mumble langą, slėpti jį į dėklą.</translation>
     </message>
     <message>
         <source>This setting controls when the application will be always on top.</source>
@@ -6862,7 +6862,7 @@ Norėdami naujinti šiuos failus į naujausią versiją, spustelėkite mygtuką 
     </message>
     <message>
         <source>Load…</source>
-        <translation>Įkelti...</translation>
+        <translation>Įkelti…</translation>
     </message>
     <message>
         <source>Save your overlay settings to file</source>
@@ -6870,7 +6870,7 @@ Norėdami naujinti šiuos failus į naujausią versiją, spustelėkite mygtuką 
     </message>
     <message>
         <source>Save…</source>
-        <translation>Įrašyti...</translation>
+        <translation>Įrašyti…</translation>
     </message>
     <message>
         <source>Set the overlay font.</source>
