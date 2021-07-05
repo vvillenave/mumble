@@ -6256,7 +6256,30 @@ Valid actions are:
                 Stop talking
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Verwendung: mumble rpc &lt;Aktion&gt; [options]
+
+Es ist möglich eine laufende Mumble Instanz mittels des &apos;mumble rpc&apos;
+Befehls fernzusteuern.
+
+Mögliche Aktionen sind:
+  mute
+                     Selbst stumm schalten
+  unmute
+                    Eigene Stummschaltung aufheben
+  togglemute
+                    Eigene Stummschaltung umschalten
+  deaf
+                    Selbst taub stellen
+  undeaf
+                    Eigene Taubsstellung aufheben
+  toggledeaf
+                    Eigene Taubstellung umschalten
+  starttalking
+                    Beginne zu sprechen
+  stoptalking
+                    Aufhören zu sprechen
+
+</translation>
     </message>
     <message>
         <source>Usage: mumble [options] [&lt;url&gt; | &lt;plugin_list&gt;]
@@ -6319,7 +6342,62 @@ Valid options are:
                 Otherwise the locale will be permanently saved to
                 Mumble&apos;s settings.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Verwendung: mumble [Optionen] [&lt;URL&gt; | &lt;Plugin Liste&gt;]
+
+&lt;URL&gt; gibt eine URL für einen Server an, der nach dem Start direkt betreten wird,
+anstatt den Verbindungsdialog zu zeigen. Eine solche URL hat die folgende Form:
+mumble://[&lt;username&gt;[:&lt;password&gt;]@]&lt;host&gt;[:&lt;port&gt;][/&lt;channel&gt;[/&lt;subchannel&gt;...]][?version=&lt;x.y.z&gt;]
+
+&lt;Plugin Liste&gt; ist eine Liste an Plugin-Dateien, die installiert werden sollen
+Der Versions-Parameter muss verwendet werden, um die korrekte Client-Version
+zu verwenden. Der aktuelle Default ist 1.2.0.
+
+Erlaubte Optionen sind:
+  -h, --help    Zeigt diese Hilfenachricht an und beendet sich dann wieder
+  -m, --multiple
+                Erlaube das Starten mehrer Client-Instanzen
+  -c, --config
+                Gibt eine alternative Konfigurationsdatei an.
+                Wenn Sie mehrere Mumble-Instanzen gleichteitig verwenden,
+                sollte sich die &apos;database&apos; Einstellung sollte.
+  --default-certificate-dir &lt;dir&gt;
+                Gibt ein alternatives Standard-Verzeichnis für Zertifikate an
+                Dieser Pfad wird nur verwendet, wenn in den Einstellungen
+                noch kein Zertifikat hinterlegt ist.
+  -n, --noidentity
+                Unterdrücke das Laden einer Identitätsdatei (z.B. Zertifikate)
+  -jn, --jackname &lt;arg&gt;
+                Setze einen eigenen Jack-Client Namen
+  --license
+                Zeige Mumbles Lizenz an
+  --authors
+                Zeige die Namen von Mumbles Authoren an
+  --third-party-licenses
+                Zeige Lizenzen von Drittanbieter-Software an, die von mumble verwendet wird
+  --window-title-ext &lt;arg&gt;
+                Setze eine eigene Fenster-Titel-Erweiterung
+  --dump-input-streams
+                Gebe PCM-Streams an verschiedenen Stellen in der Input-Verarbeitung
+                (nützlich zum Debuggen):
+                - Roher Mikrophon-Input
+                - Lautsprecher-Feed für Echounterdrückung
+                - Prozessierter Mikrophon-Input
+  --print-echocancel-queue
+                Gebe Informationen über die Echounterdrückung
+                auf stdout aus (nützlich zum Debuggen)
+  --translation-dir &lt;dir&gt;
+                Gibt alternative Verzeichnisse an, in welchen Mumble nach weiteren
+                Übersetzungen sucht, welche die Standardübersetzungen überschreiben.
+                So spezifizierte Verzeichnisse haben eine höhere Priorität, als die Standard-
+                pfade, die ansonsten verwendet werden.
+  --print-translation-dirs
+                Gebe Pfade aus, in denen Mumble nach Übersetzungen sucht, welche die Standard-
+                übersetzungen überschreiben (Nützlich zum Testen von Übersetzungen)
+  --locale &lt;locale&gt;
+                Überschreibe die verwendete Sprachumgebung mit der angegebenen Zeichenkette.
+                Wenn das Format invalide ist, wird Mumble einen Fehler ausgeben.
+                Andernfalls wird die Sprachumgebung permanent in den Einstellungen gespeichert.
+</translation>
     </message>
     <message>
         <source>Directory %1 does not exist.
